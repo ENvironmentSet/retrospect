@@ -62,7 +62,7 @@ const CenterText = styled.div`
   text-align: center;
 `;
 
-const ErrorPage = () => (
+const Error = () => (
   <ThemeProvider>
     <ErrorPageStyle />
 
@@ -98,4 +98,4 @@ const ErrorPage = () => (
   </ThemeProvider>
 );
 
-export default ErrorPage;
+export default Error;
