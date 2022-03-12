@@ -2,11 +2,7 @@
   "name": "retrospect",
   "version": "1.0.0",
   "private": true,
-  "description": "retrospect",
   "author": "ENvironmentSet",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -17,8 +13,11 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@react95/core": "^5.7.3",
+    "@react95/icons": "^2.0.4",
     "babel-plugin-styled-components": "^2.0.6",
     "gatsby": "^4.9.2",
+    "gatsby-plugin-google-analytics": "^4.9.0",
     "gatsby-plugin-image": "^2.9.1",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-mdx": "^3.9.1",
@@ -28,8 +27,8 @@
     "gatsby-plugin-styled-components": "^5.9.0",
     "gatsby-source-filesystem": "^4.9.1",
     "gatsby-transformer-sharp": "^4.9.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.3.3"
   }
