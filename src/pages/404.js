@@ -4,6 +4,7 @@
 import React from 'react';
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
 import { Frame, ThemeProvider } from '@react95/core';
+import { Link } from 'gatsby';
 
 const ErrorPageStyle = createGlobalStyle`
 @font-face {
@@ -90,7 +91,7 @@ const Error = () => (
         <br />
 
         <CenterText as="p">
-          Please <a href="/">click here to go to homepage</a>
+          Please <Link href="/">click here to go to homepage</Link>
           <Blink> _</Blink>
         </CenterText>
       </Frame>
