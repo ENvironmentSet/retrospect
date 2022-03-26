@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: 'https://retrospect.gatsbyjs.io'
+  },
   plugins: [
     'gatsby-plugin-styled-components', 'gatsby-plugin-image', 'gatsby-plugin-react-helmet', 'gatsby-plugin-sitemap',
     {
@@ -10,6 +13,12 @@ module.exports = {
         background_color: '#55AAAA',
         display: 'fullscreen',
         icon: 'src/images/icon.png'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'G-64TL5V817G',
       }
     },
     'gatsby-plugin-sharp', 'gatsby-transformer-sharp', 'gatsby-plugin-offline',
