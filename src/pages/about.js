@@ -12,12 +12,13 @@ const AboutModal = styled(Modal)`
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  top: 7vh;
   width: 70vw;
-  height: 70vh;
+  height: 80vh;
   
   @media (max-height: 736px) and (max-width: 500px) {
-    width: 85vw;
-    height: 70vh;
+    width: 90vw;
+    height: 80vh;
   }
 `;
 
@@ -39,7 +40,7 @@ export default function About() {
         title='About.exe'
         closeModal={() => navigate(-1)}
       >
-        <Frame height={hasNarrowScreen ? '67vh' : '62vh'} padding={4}>
+        <Frame height={hasNarrowScreen ? '70vh' : '65vh'} padding={4}>
           <Frame css='overflow-y: auto' height='100%' boxShadow='in' bg='white'>
             <ContentBox>
               <p>세상을 방랑하는 철학가입니다. 프로그래밍과 작문, 그리고 여행을 즐기며 바삐 돌아가는 세상 속에서 느긋하게 살고자 합니다.</p>
