@@ -10,15 +10,14 @@ import { useMediaQuery } from 'react-responsive';
 
 const PostModal = styled(Modal)`
   position: relative;
-  top: 10vh;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
-  height: 75vh;
+  top: 7vh;
+  width: 70vw;
+  height: 80vh;
   
-  @media (max-width: 1112px) and (max-height: 834px) {
-    top: 5vh;
-    width: 80vw;
+  @media (max-height: 736px) and (max-width: 500px) {
+    width: 90vw;
     height: 80vh;
   }
 `;//@TODO: Support tabs desktop mode.
@@ -54,7 +53,7 @@ export default function Post({ children: content, pageContext: { frontmatter: { 
           }
         ]}
       >
-        <Frame height={hasNarrowScreen ? '67vh' : '62vh'} padding={4}>
+        <Frame height={hasNarrowScreen ? '70vh' : '65vh'} padding={4}>
           <Frame css='overflow-y: auto' height='100%' boxShadow='in' bg='white'>
             <ContentBox>
               {content}
