@@ -12,14 +12,10 @@ const AboutModal = styled(Modal)`
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 7vh;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 70vw;
   height: 80vh;
-  
-  @media (max-height: 736px) and (max-width: 500px) {
-    width: 90vw;
-    height: 80vh;
-  }
 `;
 
 const ContentBox = styled.div`
@@ -50,7 +46,7 @@ export default function About() {
               <h4>외부 링크</h4>
               <ul>
                 <li>기술 블로그 : <a href='https://overcurried.com'>overcurried</a></li>
-                <li>인스타그램 : <a href='https://www.instagram.com/st4rdus7__/'>@st4rdus7__</a></li>
+                <li>인스타그램 : <a href='https://www.instagram.com/homemade.frenchfries/'>@homemade.frenchfries</a></li>
                 <li>메일 : <a href='mailto:sbshw1@gmail.com'>sbshw1@gmail.com</a></li>
               </ul>
             </ContentBox>
