@@ -8,20 +8,8 @@ const MainList = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 1vh;
-  
-  @media (min-width: 1112px) {
-    width: 7vw;
-  }
-  
-  @media (max-width: 1112px) {
-    margin-left: 1vw;
-    width: 8vw;
-  }
-  
-  @media (max-width: 500px) {
-    margin-left: 1vw;
-    width: 20vw;
-  }
+  margin-left: 1vw;
+  align-items: flex-start;
 `;
 
 //@TODO: add welcome modal
